@@ -1,4 +1,35 @@
-body {
-    background-color: tomato;
+/* забираємо точки списків */
+.list {
+  list-style: none;
 }
 
+/* забираємо підкреслення силок */
+.link {
+  text-decoration: none;
+}
+
+:root {
+}
+body {
+}
+/* прихований текст */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* Стилізація шапки */
+/* Стилізація героя */
+/* Особливості */
+/* Чим ми займаємось */
+/* Наша команда */
+/* Підвал */
+
+/* ----------------Портфоліо--------------------- */
