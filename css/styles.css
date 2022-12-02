@@ -1,3 +1,21 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --title-text-color: #000000;
+  --white-text-color: #ffffff;
+  --background-accent-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --footer-email-tel-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
 /* забираємо точки списків */
 .list {
   list-style: none;
@@ -6,11 +24,6 @@
 /* забираємо підкреслення силок */
 .link {
   text-decoration: none;
-}
-
-:root {
-}
-body {
 }
 /* прихований текст */
 .visually-hidden {
