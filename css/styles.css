@@ -9,6 +9,7 @@
   --team-background-color: #f5f4fa;
   --footer-email-tel-color: rgba(255, 255, 255, 0.6);
 }
+/* ------------BODY----------------- */
 body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -16,12 +17,15 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
-/* забираємо точки списків */
+button {
+  cursor: pointer;
+}
+address {
+  font-size: normal;
+}
 .list {
   list-style: none;
 }
-
-/* забираємо підкреслення силок */
 .link {
   text-decoration: none;
 }
@@ -39,6 +43,9 @@ body {
   margin: -1px;
 }
 /* Стилізація шапки */
+.header {
+  background-color: var(--primary-white-color);
+}
 /* Стилізація героя */
 /* Особливості */
 /* Чим ми займаємось */
