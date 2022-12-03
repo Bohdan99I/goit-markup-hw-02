@@ -17,17 +17,38 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
 button {
   cursor: pointer;
 }
 address {
   font-size: normal;
 }
+/* Класс для обнуления базовых свойств у списков (ul) */
 .list {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
+/* Класс для обнуления базовых свойств у ссылок */
 .link {
   text-decoration: none;
+  color: inherit;
+}
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* прихований текст */
 .visually-hidden {
@@ -42,14 +63,55 @@ address {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* Стилізація шапки */
+/* Стилізація шапки (навігація по сайту+контакти) */
 .header {
   background-color: var(--primary-white-color);
 }
+.logo link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-blue {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: var(--title-text-color);
+}
+.site-nav link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-contacts link {
+  color: var(--secondary-text-col);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav link:hover,
+.site-nav link:focus,
+.header-contacts link:hover,
+.header-contacts link:focus {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /* Стилізація героя */
 /* Особливості */
 /* Чим ми займаємось */
 /* Наша команда */
 /* Підвал */
-
+.logo-white {
+  color: var(--white-text-color);
+}
 /* ----------------Портфоліо--------------------- */
