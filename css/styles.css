@@ -89,12 +89,13 @@ img {
   letter-spacing: 0.02em;
 }
 .header-contacts link {
-  color: var(--secondary-text-col);
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.current,
 .site-nav link:hover,
 .site-nav link:focus,
 .header-contacts link:hover,
@@ -107,7 +108,47 @@ img {
 }
 
 /* Стилізація героя */
+.hero {
+  background-color: var(--background-accent-color);
+  text-align: center;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--white-text-color);
+  color: var(--accent-color);
+}
 /* Особливості */
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.benefits-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
 /* Чим ми займаємось */
 /* Наша команда */
 /* Підвал */
